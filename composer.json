@@ -1,7 +1,7 @@
 {
-    "name": "realodix/flarum-ext-indonesian",
-    "type": "flarum-extension",
-    "description": "Indonesian language pack.",
+    "name": "nakamuraagatha/flarum-ext-indonesian",
+    "type": "flarum-ext-indonesia",
+    "description": "Bahasa Indonesia.",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
@@ -9,7 +9,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "master"
         },
         "flarum-extension": {
             "title": "English",
