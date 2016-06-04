@@ -9,18 +9,18 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "Reply to #{number}"
+      reply_to_post_text: "Balas ke #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} replied to your post"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} mentioned you"
+      post_mentioned_text: "{username} membalas post kamu"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} mention ke kamu"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} replied to this."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} replied to this."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} membalas ini."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} membalas ini."       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       reply_link: => core.ref.reply
       you_text: => core.ref.you
